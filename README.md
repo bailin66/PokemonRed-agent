@@ -34,13 +34,15 @@ By building upon the baseline framework, our team has introduced **14 systemic o
 
 Compared to the baseline models, our "Evolved" agent demonstrates significant improvements across all critical metrics:
 
-| Metric                       | Baseline      | **PokeRL-Evolved**    | Improvement          |
-| :--------------------------- | :------------ | :-------------------- | :------------------- |
-| **Battle Win Rate**          | 30% - 40%     | **~90%**              | **↑ 2.5×**           |
-| **Map Exploration Coverage** | 25%           | **70%+**              | **↑ 2.8×**           |
-| **Training Convergence**     | Baseline      | **3-6x Faster**       | **↑ 300%**           |
-| **Pallet Town Exit**         | Unstable      | **≤1300 Steps**       | **Highly Optimized** |
-| **Catching Pokémon**         | Not Supported | **~40% Success Rate** | **New Feature**      |
+| Metric                       | Baseline            | **PokeRL-Evolved**    |
+|:-----------------------------|:--------------------|:----------------------|
+| **Battle Win Rate**          | Not Supported       | **~90%**              |
+| **Map Exploration Coverage** | 25%                 | **70%+**              |
+| **Training Convergence**     | Baseline            | **3-6x Faster**       |
+| **Pallet Town Exit**         | Not Supported       | **≤1300 Steps**       |
+| **Catching Pokémon**         | Not Supported       | **~40% Success Rate** |
+| **Advance the Plot**         | Not Supported       | **perfect**           |
+
 
 ### 📽️ Gameplay Demos
 <table align="center">
