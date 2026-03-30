@@ -1,17 +1,28 @@
-# 🎮 PokeRL-Red-Evolved: Advanced Reinforcement Learning for Pokémon Red
+# PokeRL-Red-Evolved: Advanced Reinforcement Learning for Pokémon Red
 
 <p align="center">
-<img src="[https://img.shields.io/badge/Algorithm-PPO-blue?style=for-the-badge](https://img.shields.io/badge/Algorithm-PPO-blue?style=for-the-badge)" />
-<img src="[https://img.shields.io/badge/Framework-Stable--Baselines3-green](https://www.google.com/search?q=https://img.shields.io/badge/Framework-Stable--Baselines3-green)?-badge)" />
-<img src="[https://img.shields.io/badge/Emulator-PyBoy-red](https://www.google.com/search?q=https://img.shields.io/badge/Emulator-PyBoy-red)?-badge)" />
-<img src="[https://img.shields.io/badge/Python-3.9+-yellow?style=for-the-badge](https://img.shields.io/badge/Python-3.9+-yellow?style=for-the-badge)" />
+  <img src="https://img.shields.io/badge/Algorithm-PPO-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Framework-Stable--Baselines3-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Emulator-PyBoy-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Python-3.9+-yellow?style=for-the-badge" />
 </p>
+
 
 ## 📝 Overview
 
-## 🖼️ Gallery
-![Title Screen](assets/pokemon_title.png)
-![Exploration Map](assets/pokemon_map.png)
+<table align="center">
+  <tr>
+    <td align="center" width="50%">
+        <img src="assets/pokemon_title.png" width="350px"><br>
+        The Title of PokemonRed
+    </td>
+    <td align="center" width="50%">
+        <img src="assets/pokemon_map.png" width="350px"><br>
+        The Entire Map of the World
+    </td>
+  </tr>
+</table>
+
 
 This project implements a high-performance Reinforcement Learning agent based on the **PPO (Proximal Policy Optimization)** algorithm to play the classic RPG *Pokémon Red*.
 
@@ -32,6 +43,19 @@ Compared to the baseline models, our "Evolved" agent demonstrates significant im
 | **Catching Pokémon**         | Not Supported | **~40% Success Rate** | **New Feature**      |
 
 ### 📽️ Gameplay Demos
+<table align="center">
+  <tr>
+    <td align="center" width="20%">
+        <img src="assets/pokemon_figure.png" width="150px"><br>
+        Player
+    </td>
+    <td align="center" width="50%">
+        <img src="assets/pokemon_fight.png" width="350px"><br>
+        Fighting with XiaoGang
+    </td>
+  </tr>
+</table>
+
 - [Battle & Capture Demo](assets/pokemon_mp4_FightAndCapture.mp4)
 - [Plot Progression Demo](assets/pokemon_mp4_plot.mp4)
 
@@ -80,6 +104,7 @@ PokemonRed-agent/
 │   ├── exploration_reward.py      # Multi-layer exploration metrics
 │   └── reward_optimization.py     # Weighted multi-objective calculator
 ├── events.json             # Data: RAM address mapping for story events
+...
 └── requirements.txt        # Dependencies
 ```
 
