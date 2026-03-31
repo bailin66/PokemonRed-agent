@@ -38,13 +38,13 @@ This is not a limitation — it is the goal. By combining curriculum learning, d
 ## 📊 Compute Efficiency Comparison
 
 | | High-Compute SOTA | **Ours (Efficiency-First)** |
-| :--- | :---: | :---: |
-| **Training Steps** | 500M+ | **~27M** |
-| **Parallel Environments** | 72 | **6** |
-| **Hardware Required** | Multi-GPU cluster | **Single GPU / CPU** |
-| **Training Duration** | Days | **12.5 hours** |
-| **Badge 1 Achieved At** | ~9.6M steps | **Comparable** |
-| **Reproducible on Laptop** | ✗ | **✓** |
+| :--- | :---: |:---------------------------:|
+| **Training Steps** | 500M+ |          **~27M**           |
+| **Parallel Environments** | 72 |            **6**            |
+| **Hardware Required** | High-end GPU (CUDA required) |    **CPU / Single GPU**     |
+| **Training Duration** | Days |       **12.5 hours**        |
+| **Badge 1 Achieved At** | ~9.6M steps |       **Comparable**        |
+| **Reproducible on Laptop** | ✗ |            **✓**            |
 
 ---
 
